@@ -24,3 +24,21 @@ VirtualBox hỗ trợ cực kỳ đầy đủ cho một máy ảo Ubuntu như t�
 Trong cửa sổ Name and Operating system, đặt tên cho máy ảo ở mục Name (ví dụ Ubuntu 14.04), Type là Linux và Version là Ubuntu (32-bit). Nếu bạn muốn dùng phiên bản Ubuntu (64-bit) thì bạn phải bật Intel VT-x hoặc AMD-V, tất nhiên là máy tính cũng phải hỗ trợ hai cái này rồi.
 
 ![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/tao-may-ao-virtualbox1.jpg?raw=true)
+
+Nhấn Next để qua phần Memory size.
+
+VirtualBox khuyến nghị thiết lập RAM tối thiểu cho Ubuntu phiên bản 64 bit là 768MB. Nhưng nếu máy tính bạn có nhiều RAM, bạn có thể chia sẽ cho máy ảo nhiều RAM một chút. Bởi vì càng nhiều RAM thì chạy càng nhanh, để dư RAM không dùng cũng phí.
+
+
+![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/memory-size-virtualbox.jpg?raw=true)
+
+Nhấn Next. Trong phần Hard disk, chọn Create a virtual hard disk now và nhấn Create để tạo ổ đĩa ảo mới cho máy ảo Ubuntu.
+
+### Hard disk file type
+Chọn VDI theo mặc định là tốt nhất. VDI là định dạng ổ đĩa ảo của VirtualBox, VMDK là định dạng ổ đĩa ảo của VMware và nó tương thích với hầu hết các nền tảng ảo hóa. Bạn có thể chọn định dạng VMDK nếu như sau này bạn muốn sử dụng ổ đĩa ảo này cho các phần mềm ảo hóa khác như VMware Workstation. Tuy nhiên, bạn vẫn có thể chuyển định dạng VDI sang VMDK bất cứ lúc nào. Nhấn Next.
+
+### Storage on physical hard disk
+Khuyến nghị chọn Dynamically allocated thay vị Fixed size. Nếu bạn chọn Fixed size thì dung lượng của file ổ đĩa ảo được tạo ra sẽ cố định trên ổ cứng của bạn, tuy nhiên định dạng này sẽ nhanh hơn so với Dynamically allocated. Ví dụ bạn tạo ra ổ đĩa ảo Fixed size 20Gb thì ổ cứng của bạn sẽ mất 20Gb mặc dù máy ảo của bạn có sử dụng hết số đó hay không. Nhấn Next.
+
+### File location and size
+Bạn cần thiết lập dung lượng ổ đĩa ảo phù hợp cho máy ảo của bạn. Khuyến nghị cho máy ảo Ubuntu là 8Gb, tuy nhiên mình sẽ cho nó lên 12Gb cũng tốt. Nếu như bạn sử dụng Dynamically allocated thì phần này thiết lập dung lượng cao lên một chút cũng không sao cả.
