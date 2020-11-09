@@ -22,4 +22,5 @@ VirtualBox hỗ trợ cực kỳ đầy đủ cho một máy ảo Ubuntu như t�
 Đầu tiên là bạn cần phải tạo ra một máy ảo mới trên VirtualBox. Mở VirtualBox, nhấn vào New để tạo máy ảo mới.
 
 Trong cửa sổ Name and Operating system, đặt tên cho máy ảo ở mục Name (ví dụ Ubuntu 14.04), Type là Linux và Version là Ubuntu (32-bit). Nếu bạn muốn dùng phiên bản Ubuntu (64-bit) thì bạn phải bật Intel VT-x hoặc AMD-V, tất nhiên là máy tính cũng phải hỗ trợ hai cái này rồi.
+
 ![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/tao-may-ao-virtualbox1.jpg?raw=true)
