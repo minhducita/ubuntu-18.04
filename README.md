@@ -66,37 +66,38 @@ Nếu đây không phải là lần đầu tiên bạn khởi động máy ảo,
 ![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/FATAL-No-bootable-medium-found.-System-halted..jpg?raw=true)
 
 Sau khi boot vào máy chủ với file iso hoặc đĩa cài đặt Ubuntu Server, chúng ta thực hiện các bước cài đặt như sau:
-Lựa chọn ngôn ngữ
+
+### Lựa chọn ngôn ngữ
 
 => Chọn ngôn ngữ mặc định là “English” hoặc ngôn ngữ nào mà bạn mong muốn.
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-1.png?raw=true)
 
-Kiểu bàn phím
+### Kiểu bàn phím
 
 => Chọn mặc định là English US
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-2.png?raw=true)
 
-Ubuntu Platform
+### Ubuntu Platform
 
 Chọn “Install Ubuntu”
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-3.png?raw=true)
 
-Cấu hình Network
+### Cấu hình Network
 
 Để mặc định => Bấm [ Done ] để tiếp tục
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-4.png?raw=true)
 
-Cấu hình Proxy Server
+### Cấu hình Proxy Server
 
 => Bỏ trống
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-5.png?raw=true)
 
-Cấu hình Ubuntu Mirror
+### Cấu hình Ubuntu Mirror
 
 Đây là dường dẫn tên miền đặt máy chủ có chứa các package của Ubuntu, phục vụ cho việc cài đặt, nâng cấp Ubuntu.
 
@@ -106,13 +107,13 @@ Vì mình ở Việt Nam nên muốn cài đặt và nâng cấp các package c�
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-7.png?raw=true)
 
-Phân vùng ổ địa và hệ thống tệp tin
+### Phân vùng ổ địa và hệ thống tệp tin
 
 Chọn “Use An Entire Disk” nếu bạn là người mới bắt đầu, còn nếu bạn là 1 Linux System Professional  thì có thể lựa chọn tùy chọn “Manual” để phân vùng ổ đĩa.
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-8.png?raw=true)
 
-Chọn ổ đĩa để cài đặt
+### Chọn ổ đĩa để cài đặt
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-9.png?raw=true)
 
@@ -124,7 +125,7 @@ Một cảnh báo sẽ hiển thị, xác nhận ổ đĩa sẽ được format 
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-11.png?raw=true)
 
-Cấu hình thông tin đăng nhập vào hệ thống bao gồm:
+### Cấu hình thông tin đăng nhập vào hệ thống bao gồm:
 
 Your name: Tên của bạn
 Your server’s name: Tên Server
@@ -134,7 +135,7 @@ Confirm your password: Nhập lại mật khẩu của bạn
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-12.png?raw=true)
 
-Cài đặt OpenSSH để có thể đăng nhập vào Server bằng giao thức SSH
+### Cài đặt OpenSSH để có thể đăng nhập vào Server bằng giao thức SSH
 
 Tích vào ô “Install OpenSSH server” bằng cách sử dụng phím [ Space ]
 
@@ -144,7 +145,7 @@ Một số loại phần mềm có sẵn để bạn có thể cài đặt, ở 
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-14.png?raw=true)
 
-Quá trình cài đặt sẽ được bắt đầu.
+### Quá trình cài đặt sẽ được bắt đầu.
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-15.png?raw=true)
 
