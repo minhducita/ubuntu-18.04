@@ -166,3 +166,69 @@ Sau khi đăng nhập thành công vào Server
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-19.png?raw=true)
 
 Như vậy quá trình cài đặt Ubuntu Server 18.04 LTS đã kết thúc. Nếu trong quá trình cài đặt theo hướng dẫn bên trên mà gặp khó khăn gì thì vui lòng để lại comment bên dưới. Mình rất vui lòng được support các bạn.
+
+### Cấu hình địa chỉ ip tĩnh cho Ubuntu server 18.04
+
+File cấu hình IP cho các card mạng của Ubuntu Server nằm tại /etc/netplan/50-cloud-init.yaml
+Nội dung ban đầu sẽ như sau:
+
+```sh
+# This file is generated from information provided by
+# the datasource.  Changes to it will not persist across an instance.
+# To disable cloud-init's network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+ network:
+     ethernets:
+        eth0:
+           dhcp4: true
+```
+
+Ví dụ ta muốn cấu hình địa chỉ IP tĩnh, ta sửa file cấu hình như sau:
+
+```sh
+# This file is generated from information provided by
+# the datasource.  Changes to it will not persist across an instance.
+# To disable cloud-init's network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+network:
+    ethernets:
+        eth0:
+            dhcp4: false
+            addresses:
+              - 10.6.169.252/24
+            gateway4: 10.6.169.3
+            nameservers:
+                addresses: [8.8.8.8, 1.1.1.1]
+```
+
+Giải thích file cấu hình:
+
+Phần cấu hình IP tĩnh cho interface eth0:
+
+```sh
+ eth0:
+            dhcp4: false
+            addresses:
+              - 10.6.169.252/24
+            gateway4: 10.6.169.3
+            nameservers:
+                addresses: [8.8.8.8, 1.1.1.1]
+```
+
+- **Dòng 1**: Cấu hình trên interface eth0
+- **Dòng 2**: Vì cấu hình ip tĩnh nên set dhcp4 là false
+- **Dòng 3,4**: Addresses: nhập địa chỉ ip và subnetmark
+- **Dòng 5**: Nhập địa chỉ gateway của mạng
+- **Dòng 6,7**: Cấu hình DNS dùng để phân giải internet
+
+Sau khi sửa file cài đặt ta lưu lại thiết lập và sử dụng câu lệnh sau để khởi động lại card mạng ta vừa thiết lập:
+
+Với ví dụ trên ta sẽ chạy lệnh
+
+```sh
+sudo netplan apply
+ip addr show dev eth0
+```
+
