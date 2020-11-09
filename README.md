@@ -42,3 +42,33 @@ Khuyến nghị chọn Dynamically allocated thay vị Fixed size. Nếu bạn c
 
 ### File location and size
 Bạn cần thiết lập dung lượng ổ đĩa ảo phù hợp cho máy ảo của bạn. Khuyến nghị cho máy ảo Ubuntu là 8Gb, tuy nhiên mình sẽ cho nó lên 12Gb cũng tốt. Nếu như bạn sử dụng Dynamically allocated thì phần này thiết lập dung lượng cao lên một chút cũng không sao cả.
+
+
+![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/dung-luong-o-cung-virtualbox.jpg?raw=true)
+
+Nhấn Create để kết thúc quá trình tạo máy ảo Ubuntu trên VirtualBox.
+
+Bạn có thể cài Ubuntu trên UEFI trong VirtualBox bằng cách vào Settings > System, sau đó bật tùy chọn Enable EFI (special OSes only) và nhấn OK để lưu lại.
+
+### Cài đặt Ubuntu trên VirtualBox
+Không giống như việc cài đặt Ubuntu bằng USB hay DVD, bạn có thể boot vào Ubuntu trên VirtualBox trực tiếp từ file iso mà không cần phải burn ra đâu cả.
+
+Để bắt đầu, chọn tên máy ảo trong cửa sổ Oracle VM VirtualBox Manager và nhấn Start để khởi động máy ảo. Nếu như đây là lần đầu tiên bạn khởi động máy ảo Ubuntu, bạn sẽ nhìn thấy cửa sổ Select start-up disk. Tại đây bạn cần phải chọn file iso Ubuntu mà bạn vừa download ở trên bằng cách nhấn vào mũi tên ở bên phải.
+
+![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/select-start-up-disk.jpg?raw=true)
+
+![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/chon-file-iso-cho-virtualbox.jpg?raw=true)
+
+Nhấn Start để boot vào Ubuntu bằng file iso đã chọn.
+
+Nếu đây không phải là lần đầu tiên bạn khởi động máy ảo, có thể bạn sẽ gặp lỗi “FATAL: No bootable medium found! System halted.” Đây là lỗi không tìm được thiết bị nào để boot. Nhấn chuột phải vào biểu tượng CD/DVD dưới màn hình đen và chọn Choose disk image…, sau đó chọn file iso mà bạn đã download ở trên.
+
+![alt text]https://static.sitecuatui.com/wp-content/uploads/2015/10/FATAL-No-bootable-medium-found.-System-halted..jpg?raw=true)
+
+Sau khi boot vào máy chủ với file iso hoặc đĩa cài đặt Ubuntu Server, chúng ta thực hiện các bước cài đặt như sau:
+Lựa chọn ngôn ngữ
+
+=> Chọn ngôn ngữ mặc định là “English” hoặc ngôn ngữ nào mà bạn mong muốn.
+
+![alt text]https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-1.png?raw=true)
+
