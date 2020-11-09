@@ -72,3 +72,96 @@ Lựa chọn ngôn ngữ
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-1.png?raw=true)
 
+Kiểu bàn phím
+
+=> Chọn mặc định là English US
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-2.png?raw=true)
+
+Ubuntu Platform
+
+Chọn “Install Ubuntu”
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-3.png?raw=true)
+
+Cấu hình Network
+
+Để mặc định => Bấm [ Done ] để tiếp tục
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-4.png?raw=true)
+
+Cấu hình Proxy Server
+
+=> Bỏ trống
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-5.png?raw=true)
+
+Cấu hình Ubuntu Mirror
+
+Đây là dường dẫn tên miền đặt máy chủ có chứa các package của Ubuntu, phục vụ cho việc cài đặt, nâng cấp Ubuntu.
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-6.png?raw=true)
+
+Vì mình ở Việt Nam nên muốn cài đặt và nâng cấp các package của Ubuntu được nhanh chóng nên mình thay đổi bằng địa chỉ Server đặt ở VN là http://opensource.xtdv.net/ubuntu
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-7.png?raw=true)
+
+Phân vùng ổ địa và hệ thống tệp tin
+
+Chọn “Use An Entire Disk” nếu bạn là người mới bắt đầu, còn nếu bạn là 1 Linux System Professional  thì có thể lựa chọn tùy chọn “Manual” để phân vùng ổ đĩa.
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-8.png?raw=true)
+
+Chọn ổ đĩa để cài đặt
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-9.png?raw=true)
+
+Thông tin phân vùng ổ đĩa => Chọn [ Done ] để tiếp tục
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-10.png?raw=true)
+
+Một cảnh báo sẽ hiển thị, xác nhận ổ đĩa sẽ được format => Chọn [ Continue ] để tiếp tục
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-11.png?raw=true)
+
+Cấu hình thông tin đăng nhập vào hệ thống bao gồm:
+
+Your name: Tên của bạn
+Your server’s name: Tên Server
+Pick a username: Tên đăng nhập
+Choose a password: Mật khẩu
+Confirm your password: Nhập lại mật khẩu của bạn
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-12.png?raw=true)
+
+Cài đặt OpenSSH để có thể đăng nhập vào Server bằng giao thức SSH
+
+Tích vào ô “Install OpenSSH server” bằng cách sử dụng phím [ Space ]
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-13.png?raw=true)
+
+Một số loại phần mềm có sẵn để bạn có thể cài đặt, ở đây mình ko có nhu cầu cài đặt cài nào trong đây. Các bạn có thể chọn nếu muốn cài, sử dụng phím [ Space ] để lựa chọn.
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-14.png?raw=true)
+
+Quá trình cài đặt sẽ được bắt đầu.
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-15.png?raw=true)
+
+Sau khi cài đặt xong => Chọn [ Reboot Now ] để reboot lại máy chủ
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-16.png?raw=true)
+
+Gỡ bỏ đĩa cài đặt => bấm phím [ Enter ] để boot vào HDH
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-17.png?raw=true)
+
+Kết quả sau khi reboot, chúng ta thực hiện login vào Server bằng tài khoản đã tạo ở các bước trên
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-18.png?raw=true)
+
+Sau khi đăng nhập thành công vào Server
+
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-19.png?raw=true)
+
+Như vậy quá trình cài đặt Ubuntu Server 18.04 LTS đã kết thúc. Nếu trong quá trình cài đặt theo hướng dẫn bên trên mà gặp khó khăn gì thì vui lòng để lại comment bên dưới. Mình rất vui lòng được support các bạn.
