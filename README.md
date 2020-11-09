@@ -15,3 +15,10 @@ Ubuntu Server là một phiên bản biến thể của Ubuntu, được điều
 ### Các bước chuẩn bị
 1. File iso của Ubuntu Server 18.04. Link download tại đây: http://releases.ubuntu.com/18.04/
 2. Máy ảo VirtualBox, VMWare hoặc có thể ghi file iso ra đĩa và cài trên máy tính thật.
+
+### Tạo máy ảo Ubuntu trên VirtualBox
+VirtualBox hỗ trợ cực kỳ đầy đủ cho một máy ảo Ubuntu như tính năng copy paste, shared folder thông qua Guest Additions.
+
+Đầu tiên là bạn cần phải tạo ra một máy ảo mới trên VirtualBox. Mở VirtualBox, nhấn vào New để tạo máy ảo mới.
+
+Trong cửa sổ Name and Operating system, đặt tên cho máy ảo ở mục Name (ví dụ Ubuntu 14.04), Type là Linux và Version là Ubuntu (32-bit). Nếu bạn muốn dùng phiên bản Ubuntu (64-bit) thì bạn phải bật Intel VT-x hoặc AMD-V, tất nhiên là máy tính cũng phải hỗ trợ hai cái này rồi.
