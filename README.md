@@ -12,3 +12,6 @@ Ubuntu Server là một phiên bản biến thể của Ubuntu, được điều
 - **Giao diện mặc định**: Unity trên nền GNOME 3
 - **Giấy phép**: GNU GPL
 - **Website**: www.ubuntu.com
+### Các bước chuẩn bị
+- 1. File iso của Ubuntu Server 18.04. Link download tại đây: http://releases.ubuntu.com/18.04/
+- 2. Máy ảo VirtualBox, VMWare hoặc có thể ghi file iso ra đĩa và cài trên máy tính thật.
