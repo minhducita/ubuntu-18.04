@@ -127,11 +127,11 @@ Một cảnh báo sẽ hiển thị, xác nhận ổ đĩa sẽ được format 
 
 ### Cấu hình thông tin đăng nhập vào hệ thống bao gồm:
 
-Your name: Tên của bạn
-Your server’s name: Tên Server
-Pick a username: Tên đăng nhập
-Choose a password: Mật khẩu
-Confirm your password: Nhập lại mật khẩu của bạn
+- **Your name**: Tên của bạn
+- **Your server’s name**: Tên Server
+- **Pick a username**: Tên đăng nhập
+- **Choose a password**: Mật khẩu
+- **Confirm your password**: Nhập lại mật khẩu của bạn
 
 ![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-12.png?raw=true)
 
