@@ -63,12 +63,12 @@ Nhấn Start để boot vào Ubuntu bằng file iso đã chọn.
 
 Nếu đây không phải là lần đầu tiên bạn khởi động máy ảo, có thể bạn sẽ gặp lỗi “FATAL: No bootable medium found! System halted.” Đây là lỗi không tìm được thiết bị nào để boot. Nhấn chuột phải vào biểu tượng CD/DVD dưới màn hình đen và chọn Choose disk image…, sau đó chọn file iso mà bạn đã download ở trên.
 
-![alt text]https://static.sitecuatui.com/wp-content/uploads/2015/10/FATAL-No-bootable-medium-found.-System-halted..jpg?raw=true)
+![alt text](https://static.sitecuatui.com/wp-content/uploads/2015/10/FATAL-No-bootable-medium-found.-System-halted..jpg?raw=true)
 
 Sau khi boot vào máy chủ với file iso hoặc đĩa cài đặt Ubuntu Server, chúng ta thực hiện các bước cài đặt như sau:
 Lựa chọn ngôn ngữ
 
 => Chọn ngôn ngữ mặc định là “English” hoặc ngôn ngữ nào mà bạn mong muốn.
 
-![alt text]https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-1.png?raw=true)
+![alt text](https://vinasupport.com/uploads/bai-viet/Ubuntu/Server-1804/Huong-Dan-Cai-Dat-Ubuntu-Server-18-04-Step-1.png?raw=true)
 
